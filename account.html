@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>My Profile</title>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="Utf-8">
+	</head>
+	<body class=center>
+		<div id="wrapper">
+			<header>
+				<h1>Profile Settings</h1>
+			</header>
+			<nav>
+				<ol>
+					<li>
+						<a href="index.html"><b>Home</b></a>&nbsp;&nbsp;
+						<a href="blog.html"><b>Blog</b></a>&nbsp;&nbsp;
+						<a href="wiki.html"><b>Wiki</b></a>&nbsp;&nbsp;
+						<a href="account.html"><b>Account</b></a>&nbsp;&nbsp;
+					</li>
+				</ol>
+			</nav>
+		</div>
+		<main> 
+			<h2> Avatar </h2>
+			<form action="https://webdevbasics.net/scripts/pacific.php">
+				<label for="FName">First Name:</label>
+				<input type="text" name="FName" id="FName">
+				<label for="LName">Last Name:</label>
+				<input type="text" name="LName" id="LName">
+				<label for="contact">E-mail:</label>
+				<input type="email" name="contact" id="contact" size="50">
+				<label for="contactPhone">Phone:</label>
+				<input type="tel" name="contactPhone" id="contactPhone" maxlength="12">
+				<label for="DOB">Nights:</label>
+				<input type="number" name="DOB" id="DOB" min="1" max="14">
+				<label for="bio">Comments:</label>
+				<textarea name="bio" id="bio" rows="2" columns="30"></textarea>
+				<input id="mySubmit" type="Submit" value="Submit">
+			</form>
+		</main>
+		<footer> 
+			<br>Copyright &copy;9999 Toad Finder<br>
+			<br>nathaniel@waters.toad@frog.mail<br>
+		</footer>
+	</body>
+</html>

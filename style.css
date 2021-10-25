@@ -1,0 +1,182 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(to bottom, #295900, #FFFFFF);
+}
+
+header  { 
+	text-align: center;
+	padding-top: 0px;
+	margin-bottom: 18px;
+	width: 100%;
+}
+
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif    ;
+}
+
+h1{
+	text-align: center;
+	background-color: #145722; 
+	color: white;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	margin-bottom: -18px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+main { 
+	box-shadow: 3px 3px 3px 3px #333333;
+    background-color: #67cc10 ; 
+	padding-left: 20px;
+    padding-top: 1px;
+	padding-right: 20px;
+    display: block;
+	width: 920px;
+}
+
+nav{
+	background-color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #5bd9fc;
+}
+
+nav ul { 
+    list-style-type: none; 
+    padding-left: 0;
+    margin:0; 
+}
+
+ol {
+	float: left;
+	margin: 10px 0 25px 0;
+	border-radius: 2px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    background-color: #9fe663;
+}
+
+
+li a:hover {
+    border-radius: 10px;
+	background-color: #0099ff;
+    color: white;
+}
+
+.column {
+	float: left;
+	width: 32%;
+}
+
+#wrapper { 
+	background-color: #67cc10 ;
+    min-width: 960px;
+    max-width: 2048px;
+    width: 80% ;
+    box-shadow: 3px 3px 3px 3px #333333; 
+} 
+
+.center {
+	margin: auto;
+	width: 50%;
+	border: 3px solid green;
+	padding: 6px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+img{
+	width: 200px
+}
+
+footer { 
+	font-size: .7em;
+    font-style: italic;
+    text-align : center; 
+    padding : 2em;
+    background-color: white; 
+	background-color: #67cc10;
+	width: 915px;
+	box-shadow: 3px 3px 3px 3px #333333; 
+}
+
+header, nav, main, footer {
+    display : block;
+}
+
+table {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 1em;
+	border: 3px solid black;
+}
+
+td {
+	text-align: center;
+}
+
+form { 
+	display: flex; 
+	flex-flow: column nowrap; 
+}    
+input, textarea { margin-bottom: .5em; }
+
+@media (max-width: 600px) {
+	img {
+		margin-right: 4em;
+	}
+	footer{
+		width: 320px;
+	}
+	main {
+		width: 320px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.column {
+		float: none;
+		width: 33%;
+	}
+	
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	#wrapper { 
+		background-color: #67cc10 ;
+		min-width: 360px;
+		max-width: 1500px;
+		width: 80% ;
+		box-shadow: 3px 3px 3px 3px #333333; 
+	} 
+	ul li {
+		width: 90%;
+	}
+	footer{
+		width: 425px;
+	}
+	main {
+		width: 425px;
+	}
+}
